@@ -1,0 +1,128 @@
+body {
+    font-family: "Arial", sans-serif;
+    background: #f3f0e9;
+    margin: 0;
+    padding: 20px;
+}
+
+.cv-container {
+    background: white;
+    width: 900px;
+    margin: auto;
+    padding: 40px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.header {
+    display: flex;
+    gap: 40px;
+}
+
+
+.photo img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info h1 {
+    font-size: 36px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.info h2 {
+    color: #bb9776;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.contact p {
+    margin: 3px 0;
+    font-size: 14px;
+}
+
+.description {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    text-align: left !important;
+    
+}
+
+.section-title {
+    margin-top: 35px;
+    font-size: 18px;
+    color: #bb9776;
+    border-bottom: 1px solid #bb9776;
+    padding-bottom: 5px;
+}
+
+/* SECTION PROJETS ACADÉMIQUES (même style que expériences + parcours) */
+
+.projects {
+    margin-top: 20px;
+}
+
+.proj-block {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.proj-date {
+    width: 220px;
+    font-size: 14px;
+    color: #555;
+}
+
+.proj-details h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.proj-details ul {
+    margin: 8px 0 0 20px;
+    font-size: 14px;
+}
+
+.proj-details ul li {
+    margin-bottom: 4px;
+}
+
+
+.experience, .education {
+    margin-top: 20px;
+}
+
+.exp-block, .edu-block {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.exp-date, .edu-date {
+    width: 220px;
+    font-size: 14px;
+    color: #555;
+}
+
+.exp-details h4, .edu-details h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.exp-details ul, .edu-details ul {
+    margin: 8px 0 0 20px;
+    font-size: 14px;
+}
+
+.bottom-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.bottom-columns p, .bottom-columns ul {
+    font-size: 14px;
+}
